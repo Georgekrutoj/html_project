@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: block;
+
+    float: left;
+    background: #2b302d;
+
+    height: 100vh;
+    width: 120px;
+    border: 1px solid white;
+
+    position: fixed;
+}
+
+.for_better {
+    font-size: 20px;
+}
+
+.button {
+    display: block;
+    height: 50px;
+    width: 115px;
+    text-align: center;
+}
+
+.button {
+    background: grey;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: aliceblue;
+    color: grey;
+    text-decoration: none;
+}
+
+.main_img {
+    float: right;
+}
+
+.main {
+    display: block;
+    height: 100vh;
+    width: 1000px;
+    background: wheat;
+}
+
+.text_logo {
+    text-align: right;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+}
+
+.will_stud {
+    display: inline;
+    text-align: center;
+}
